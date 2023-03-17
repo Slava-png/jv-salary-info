@@ -31,7 +31,8 @@ public class SalaryInfo {
         return report.toString();
     }
 
-    public int[] calculateSalary(String[] names, String[] data, LocalDate dateFrom, LocalDate dateTo) {
+    public int[] calculateSalary(String[] names, String[] data,
+                                 LocalDate dateFrom, LocalDate dateTo) {
         int[] salaries = new int[names.length];
 
         for (String datum : data) {
